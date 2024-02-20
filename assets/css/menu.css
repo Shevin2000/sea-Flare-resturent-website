@@ -1,0 +1,36 @@
+.menu-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .menu-table th, .menu-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .menu-table th {
+    background-color: var(--space-cadet);
+    color: var(--white);
+  }
+  
+  .menu-table tbody tr:hover {
+    background-color: var(--cultured);
+  }
+  
+  .menu-table td {
+    color: var(--space-cadet);
+  }
+  
+  .menu-table tbody tr:nth-child(even) {
+    background-color: var(--cultured);
+  }
+  
+  .menu-table td:nth-child(4) {
+    color: var(--red-orange-crayola);
+    font-weight: bold;
+  }
+  
+  /* Add additional styles as needed */
+  

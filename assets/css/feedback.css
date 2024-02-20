@@ -1,0 +1,77 @@
+/* Add this to your existing CSS file or create a new one for the form */
+
+/* Form Styles */
+form {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    background: var(--cultured);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--space-cadet);
+    font-size: var(--fs-4);
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--rhythm);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: var(--fs-4);
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Button Styles */
+  button {
+    padding: 10px 15px;
+    background: var(--saffron);
+    color: var(--space-cadet);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: var(--fs-4);
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: var(--red-orange-crayola);
+  }
+  
+  /* Reset Button Styles */
+  button[type="reset"] {
+    background: var(--space-cadet);
+    color: var(--white);
+  }
+  
+  button[type="reset"]:hover {
+    background: var(--rhythm);
+  }
+  
+  /* Feedback Textarea Styles */
+  textarea {
+    resize: vertical;
+  }
+  
+  /* Form Buttons Container */
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Add more styles as needed */
+  

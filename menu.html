@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sea Flare</title>
+
+    <!--
+    - custom css link 
+  -->
+    <link rel="stylesheet" href="./assets/css/food.css" />
+    <link rel="stylesheet" href="./assets/css/media_query.css" />
+    <link rel="stylesheet" href="./assets/css/menu.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monoton&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - main container
+  -->
+
+    <div class="container">
+      <!--
+      - #HEADER
+    -->
+
+      <header>
+        <nav class="navbar">
+          <div class="navbar-wrapper">
+            <a href="#">
+              <img src="./assets/images/logo.svg" alt="logo" width="150" />
+            </a>
+
+            <ul class="navbar-nav">
+              <li>
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+
+              <li>
+                <a href="about.html" class="nav-link">About</a>
+              </li>
+
+              <li>
+                <a href="" class="nav-link">Our Menu</a>
+              </li>
+
+              <li>
+                <a href="feedback.html" class="nav-link">Feedback</a>
+              </li>
+            </ul>
+
+            <div class="navbar-btn-group">
+              <button class="menu-toggle-btn">
+                <span class="line one"></span>
+                <span class="line two"></span>
+                <span class="line three"></span>
+              </button>
+            </div>
+          </div>
+        </nav>
+
+        <div class="cart-box">
+          <ul class="cart-box-ul">
+            <h4 class="cart-h4">Your order.</h4>
+          </ul>
+        </div>
+      </header>
+
+      <main>
+        <!--
+        - #PRODUCT SECTION
+      -->
+
+        <section class="product" id="menu">
+          <h2 class="section-title">Most popular dishes</h2>
+
+          <p class="section-text">
+            Explore our menu's most popular dishes, crafted with exquisite
+            flavors and premium ingredients. 
+          </p>
+
+          <div class="products-grid">
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/images/seafood-plate-with-shrimps-mussels-lobsters-served-with-lemon.jpg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">Citrus Seafood Delight</h3>
+
+                    <p class="product-price"><span class="small">$</span>11</p>
+                  </div>
+
+                  <p class="product-text">
+                    Shrimps, Mussels, Lobsters, Lemon feta cheese, mushrooms,
+                    rice noodles, corn, shrimp. and many more
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/images/seafood-plate-with-shrimps-mussels-lobsters-served-with-lemon-glass-beer.jpg"
+                    alt="product image"
+                    height="20px"
+                    class="product-img"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">Seafood Extravaganza</h3>
+
+                    <p class="product-price"><span class="small">$</span>14</p>
+                  </div>
+
+                  <p class="product-text">
+                    Shrimps Mussels Lobsters Lemon shrimp. and many more Glass
+                    of Beer
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/images/roasted-shrimps-pan-table.jpg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    height="200"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">roasted shrimps</h3>
+
+                    <p class="product-price"><span class="small">$</span>9</p>
+                  </div>
+
+                  <p class="product-text">
+                    Roasted shrimps: Shrimp seasoned with garlic, lemon, and
+                    herbs, then roasted to perfection, resulting in a flavorful
+                    and succulent dish.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/images/flat-lay-plate-mussels-pasta-wine.jpg"
+                    alt="product image"
+                    class="product-img"
+                    height="200"
+                    width="200"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">mussels pasta & wine</h3>
+
+                    <p class="product-price"><span class="small">$</span>4</p>
+                  </div>
+
+                  <p class="product-text">
+                    Mussels Pasta White wine Olive oil Garlic Shallots (finely
+                    chopped) Cherry tomatoes
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/images/grilled-shrimp-salad.jpg"
+                    alt="product image"
+                    class="product-img"
+                    height="200"
+                    width="200"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">grilled shrimp salad</h3>
+
+                    <p class="product-price"><span class="small">$</span>6</p>
+                  </div>
+
+                  <p class="product-text">
+                    Grilled Shrimp Salad: Mix shrimp with olive oil, garlic,
+                    paprika. Grill. Toss with greens, veggies, avocado. Drizzle
+                    balsamic dressing. Serve.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="product-card">
+                <div class="img-box">
+                  <img
+                    src="./assets/images/thai-food-tom-yum-kung-river-prawn-spicy-soup.jpg"
+                    alt="product image"
+                    class="product-img"
+                    width="200"
+                    height="200"
+                    loading="lazy"
+                  />
+                </div>
+
+                <div class="product-content">
+                  <div class="wrapper">
+                    <h3 class="product-name">tom yun river prown crazy</h3>
+
+                    <p class="product-price"><span class="small">$</span>14</p>
+                  </div>
+
+                  <p class="product-text">
+                    Tom Yum Kung: Thai spicy soup with river prawns. Lemongrass,
+                    lime leaves, chili, mushrooms, and herbs create a flavorful
+                    broth.
+                  </p>
+
+                  <div class="product-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </section>
+         <!-- Menu Table -->
+         <table class="menu-table">
+            <thead>
+              <tr>
+                <th>Item Code</th>
+                <th>Dish Name</th>
+                <th>Description</th>
+                <th>Price per Portion</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>001</td>
+                <td>Citrus Seafood Delight</td>
+                <td>Shrimps, Mussels, Lobsters, Lemon feta cheese, mushrooms, rice noodles, corn, shrimp. and many more</td>
+                <td>$11</td>
+              </tr>
+              <tr>
+                <td>002</td>
+                <td>Seafood Extravaganza</td>
+                <td>Shrimps Mussels Lobsters Lemon shrimp. and many more Glass of Beer</td>
+                <td>$14</td>
+              </tr>
+              <tr>
+                <td>003</td>
+                <td>Roasted Shrimps</td>
+                <td>Roasted shrimps: Shrimp seasoned with garlic, lemon, and herbs, then roasted to perfection, resulting in a flavorful and succulent dish.</td>
+                <td>$9</td>
+              </tr>
+              <tr>
+                <td>004</td>
+                <td>Mussels Pasta & Wine</td>
+                <td>Mussels Pasta White wine Olive oil Garlic Shallots (finely chopped) Cherry tomatoes</td>
+                <td>$4</td>
+              </tr>
+              <tr>
+                <td>005</td>
+                <td>Grilled Shrimp Salad</td>
+                <td>Grilled Shrimp Salad: Mix shrimp with olive oil, garlic, paprika. Grill. Toss with greens, veggies, avocado. Drizzle balsamic dressing. Serve.</td>
+                <td>$6</td>
+              </tr>
+              <tr>
+                <td>006</td>
+                <td>Tom Yun River Prawn Crazy</td>
+                <td>Tom Yum Kung: Thai spicy soup with river prawns. Lemongrass, lime leaves, chili, mushrooms, and herbs create a flavorful broth.</td>
+                <td>$14</td>
+              </tr>
+              <!-- Add more rows for other dishes -->
+            </tbody>
+          </table>
+      </main>
+
+      <!--
+      - #FOOTER
+    -->
+
+      <footer>
+        <div class="footer-wrapper">
+          <a href="#">
+            <img
+              src="./assets/images/logo.svg"
+              alt="logo"
+              class="footer-brand"
+              width="130"
+            />
+          </a>
+
+          <div class="social-link">
+            <a href="#">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+
+            <a href="#">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+
+            <a href="#">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+
+            <a href="#">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </div>
+
+          <p class="copyright">
+            &copy; Copyright 2024 FOOD FLARE. All Rights Reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/food.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
